@@ -26,8 +26,9 @@
     background-image:linear-gradient(rgb(7, 74, 7),rgb(58, 88, 58)); 
 }
 .input{
-    height:5vh;
-    width:163px;
+    font-size:20px;
+    height:6vh;
+    width:283px;
     margin:10px;
     text-align:right;
     border:2px ridge black;
