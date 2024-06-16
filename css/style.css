@@ -14,8 +14,9 @@
     border:2px ridge black;
     border-radius:8px;
     cursor:pointer;
-    size: 20px;
+    /* size: 20px; */
     background-image:linear-gradient(green,lightgreen);
+    font-weight:bold;
     /* color:transparent; */
     /* background-clip:text; */
 }
@@ -36,6 +37,7 @@
     /* border-style:none; */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:lightgreen;
+    font-weight:bold;
 }
 body{
     background-image:linear-gradient(black,grey);
@@ -48,8 +50,9 @@ body{
     column-width:8px;
 }
 .zero{
-    width:145px;
+    width:135px;
 }
 .pad{
     width:62px;
 }
+
