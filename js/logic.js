@@ -8,11 +8,16 @@ Array.from(buttons).forEach((button)=>{
             string=eval(string);
             q.value=string;
         }
-        else if(e.target.innerHTML=='C')
+        else if(e.target.innerHTML=='AC')
             {
                 string="";
                 q.value=string;
             }
+            else if(e.target.innerHTML=='+/-')
+                {
+                    string='-'+'('+string+')';
+                    q.value=string;
+                }
         else{
             string=string+e.target.innerHTML;
             q.value=string;

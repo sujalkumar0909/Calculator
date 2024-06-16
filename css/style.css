@@ -46,3 +46,9 @@ body{
 .cw{
     column-width:8px;
 }
+.zero{
+    column-width:100px;
+}
+.pad{
+    column-width:20px;
+}
