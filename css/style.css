@@ -48,7 +48,7 @@ body{
     column-width:8px;
 }
 .zero{
-    column-width:100px;
+    width:145px;
 }
 .pad{
     column-width:20px;
