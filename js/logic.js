@@ -18,6 +18,11 @@ Array.from(buttons).forEach((button)=>{
                     string='-'+'('+string+')';
                     q.value=string;
                 }
+                else if(e.target.innerHTML=='DEL')
+                    {
+                        string=string.slice(0,-1);
+                        q.value=string;
+                    }
         else{
             string=string+e.target.innerHTML;
             q.value=string;
