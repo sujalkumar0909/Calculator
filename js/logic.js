@@ -10,7 +10,8 @@ Array.from(buttons).forEach((button)=>{
         }
         else if(e.target.innerHTML=='C')
             {
-                q.value=null ;
+                string="";
+                q.value=string;
             }
         else{
             string=string+e.target.innerHTML;
