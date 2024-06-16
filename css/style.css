@@ -1,5 +1,8 @@
 .text-center{
     text-align:center;
+    background-image:linear-gradient(green,lightgreen);
+    background-clip: text;
+    color:transparent;
 }
 .row{
     display:table;
@@ -8,8 +11,24 @@
 .button{
     padding:20px;
     margin:5px;
-    border-radius:5px;
+    border:2px ridge black;
+    border-radius:8px;
+    cursor:pointer;
+    size: 20px;;
 }
-.zero{
-    column-width: 70px;
+.input{
+    height:5vh;
+    width:18.5vw;
+    margin:10px;
+    text-align:right;
+    border:2px ridge black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image:linear-gradient(black,grey);
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.cw{
+    column-width:8px;
 }
